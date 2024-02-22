@@ -9,6 +9,20 @@
    <div id="myid">
     Hello Madan
    </div>
+   <script type="text/babel">
+    function Test() {
+        const click = () => alert("test")
+        return <button onClick={click}> Click Me </button>
+    }
+    class Hello extends React.Component {
+        render() 
+        {
+            return <div> Hello react <Test/> </div>
+        }
+    }
+    ReactDOM.render(<Hello/>, document.getElementById("myid"))
+
+   </script>
     </body>
     
 </html>
