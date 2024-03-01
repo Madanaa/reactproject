@@ -1,9 +1,12 @@
+import ClassComponent from "./component/ClassComponent";
+
 //import Component from "./Component";
 function Users() {
     return (
       <div className="Users">
         <h1>Hello React </h1>
         <Component/>
+        <ClassComponent/>
       </div>
     );
   }
