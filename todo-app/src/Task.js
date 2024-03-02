@@ -13,6 +13,7 @@ const Task = ({ task, onDelete, onToggle }) => {
         <strong>{task.title}</strong> - {task.description}
       </div>
       <small>Due Date: {task.dueDate}</small>
+      
     </div>
   );
 };

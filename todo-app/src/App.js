@@ -56,6 +56,7 @@ const TodoApp = () => {
     }
   };
 
+
   return (
     <div>
       <h1>To-Do App</h1>
@@ -66,7 +67,7 @@ const TodoApp = () => {
           onChange={(e) => setNewTask(e.target.value)}
           placeholder="Enter task title"
         />
-        <button onClick={addTask}>Add Task</button>
+        <button onClick={addTask}>Add Your Task</button>
       </div>
       {tasks.map((task) => (
         <Task
